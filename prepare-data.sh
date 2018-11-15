@@ -12,7 +12,7 @@ cat $srcpath/UD_Czech-PDT/cs_pdt-ud-train-c.conllu \
     $srcpath/UD_Czech-PDT/cs_pdt-ud-train-l.conllu \
     $srcpath/UD_Czech-PDT/cs_pdt-ud-train-m.conllu \
     $srcpath/UD_Czech-PDT/cs_pdt-ud-train-v.conllu \
-    > $path/UD_Czech-ACC/cs_pdt-ud-train.connlu
+    > $path/UD_Czech-ACC/cs_pdt-ud-train.conllu
 
 #cp $srcpath/UD_Czech-PDT/cs_pdt-ud-train.conllu $path/UD_Czech-ACC/
 
