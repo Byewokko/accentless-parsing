@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import sys
-import unidecode
 from split_acc import split
 
 for line in sys.stdin:
