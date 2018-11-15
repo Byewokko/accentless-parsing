@@ -22,13 +22,13 @@ cp $srcpath/UD_Czech-PDT/cs_pdt-ud-test.conllu $path/UD_Czech-ACC/
 
 echo "[$(date +'%T')] extracting txts... "
 
-python3 conll_to_text.py < $srcpath/UD_Czech-PDT/cs_pdt-ud-train.conllu \
+python3 conll_to_text.py < $srcpath/UD_Czech-ACC/cs_pdt-ud-train.conllu \
     > $path/UD_Czech-ACC/cs_pdt-ud-train.txt
         
-python3 conll_to_text.py < $srcpath/UD_Czech-PDT/cs_pdt-ud-dev.conllu \
+python3 conll_to_text.py < $srcpath/UD_Czech-ACC/cs_pdt-ud-dev.conllu \
     > $path/UD_Czech-ACC/cs_pdt-ud-dev.txt
     
-python3 conll_to_text.py < $srcpath/UD_Czech-PDT/cs_pdt-ud-test.conllu \
+python3 conll_to_text.py < $srcpath/UD_Czech-ACC/cs_pdt-ud-test.conllu \
     > $path/UD_Czech-ACC/cs_pdt-ud-test.txt
 
 echo -e "[$(date +'%T')] DONE!\n"
