@@ -130,7 +130,7 @@ echo -e "[$(date +'%T')] DONE!\n"
 
 
 nr=20
-echo '[$(date +'%T')] Making DE'"$nr"'S dataset... '
+echo "[$(date +'%T')] "'Making DE'"$nr"'S dataset... '
 mkdir $path/UD_Czech-DE"$nr"S
 
 echo "[$(date +'%T')] processing txts... "
