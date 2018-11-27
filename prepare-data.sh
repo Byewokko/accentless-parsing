@@ -16,9 +16,9 @@ cat $srcpath/UD_Czech-PDT/cs_pdt-ud-train-c.conllu \
 
 #cp $srcpath/UD_Czech-PDT/cs_pdt-ud-train.conllu $path/UD_Czech-ACC/
 
-cp $srcpath/UD_Czech-PDT/cs_pdt-ud-dev.conllu $path/UD_Czech-ACC/
+cp $srcpath/UD_Czech-PDT/cs_pdt-ud-dev.conllu $path/UD_Czech-ACC/cs_acc-ud-dev.conllu
 
-cp $srcpath/UD_Czech-PDT/cs_pdt-ud-test.conllu $path/UD_Czech-ACC/
+cp $srcpath/UD_Czech-PDT/cs_pdt-ud-test.conllu $path/UD_Czech-ACC/cs_acc-ud-test.conllu
 
 echo "[$(date +'%T')] extracting txts... "
 
